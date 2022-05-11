@@ -1,0 +1,32 @@
+{
+  "name": "voice-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemonWayne/voice-chat.git"
+  },
+  "author": "DemonWayne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DemonWayne/voice-chat/issues"
+  },
+  "homepage": "https://github.com/DemonWayne/voice-chat#readme",
+  "dependencies": {
+    "@sapphire/framework": "^2.4.1",
+    "@sapphire/plugin-logger": "^2.2.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2"
+  }
+}
